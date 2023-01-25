@@ -1,0 +1,31 @@
+code {
+    margin: 20px;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+  }
+
+  .floating-menu {
+    font-family: sans-serif;
+    background: #e0ebf5;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: black;
+  }
+
+  body {
+    max-width: 500px;
+    margin: auto;
+  }
