@@ -1,1 +1,0 @@
-# sandia-minimega.github.io
