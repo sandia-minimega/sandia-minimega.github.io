@@ -14,14 +14,142 @@
 		
     </header>
     <!-- TOP NAVIGATION MENU-->
-		<nav class="floating-menu">
+		<div class="sidenav">
 <h3>Navigation</h3>
-<a href="#header_1.1">Introduction</a>
-<a href="#header_2.1">Builtins</a>
-<a href="#header_3.1">Mesh Commands</a>
-<a href="#header_4.1">VM Commands</a>
-<a href="#header_5.1">Host and Other Commands</a>
-</nav>
+<a class="bold" href="#header_1.1">Introduction</a>
+<a class="bold" href="#header_2.1">Builtins</a>
+<a href="#header_2.2">.alias</a>
+<a href="#header_2.3">.annotate</a>
+<a href="#header_2.4">.columns</a>
+<a href="#header_2.5">.compress</a>
+<a href="#header_2.6">.csv</a>
+<a href="#header_2.7">.env</a>
+<a href="#header_2.8">.filter</a>
+<a href="#header_2.9">.headers</a>
+<a href="#header_2.10">.json</a>
+<a href="#header_2.11">.preprocess</a>
+<a href="#header_2.12">.record</a>
+<a href="#header_2.13">.sort</a>
+<a href="#header_2.14">.unalias</a>
+<a class="bold" href="#header_3.1">Mesh Commands</a>
+<a href="#header_3.2">mesh degree</a>
+<a href="#header_3.3">mesh dial</a>
+<a href="#header_3.4">mesh dot</a>
+<a href="#header_3.5">mesh hangup</a>
+<a href="#header_3.6">mesh list</a>
+<a href="#header_3.7">mesh send</a>
+<a href="#header_3.8">mesh status</a>
+<a href="#header_3.9">mesh timeout</a>
+<a class="bold" href="#header_4.1">VM Commands</a>
+<a href="#header_4.2">clear vm config</a>
+<a href="#header_4.3">clear vm config tag</a>
+<a href="#header_4.4">clear vm net bond</a>
+<a href="#header_4.5">clear vm tag</a>
+<a href="#header_4.6">vm</a>
+<a href="#header_4.7">vm cdrom</a>
+<a href="#header_4.8">vm config</a>
+<a href="#header_4.9">vm config append</a>
+<a href="#header_4.10">vm config backchannel</a>
+<a href="#header_4.11">vm config cdrom</a>
+<a href="#header_4.12">vm config colocate</a>
+<a href="#header_4.13">vm config cores</a>
+<a href="#header_4.14">vm config coschedule</a>
+<a href="#header_4.15">vm config cpu</a>
+<a href="#header_4.16">vm config disks</a>
+<a href="#header_4.17">vm config fifos</a>
+<a href="#header_4.18">vm config filesystem</a>
+<a href="#header_4.19">vm config hostname</a>
+<a href="#header_4.20">vm config init</a>
+<a href="#header_4.21">vm config initrd</a>
+<a href="#header_4.22">vm config kernel</a>
+<a href="#header_4.23">vm config machine</a>
+<a href="#header_4.24">vm config memory</a>
+<a href="#header_4.25">vm config migrate</a>
+<a href="#header_4.26">vm config networks</a>
+<a href="#header_4.27">vm config preinit</a>
+<a href="#header_4.28">vm config qemu</a>
+<a href="#header_4.29">vm config qemu-append</a>
+<a href="#header_4.30">vm config qemu-override</a>
+<a href="#header_4.31">vm config schedule</a>
+<a href="#header_4.32">vm config serial-ports</a>
+<a href="#header_4.33">vm config snapshot</a>
+<a href="#header_4.34">vm config sockets</a>
+<a href="#header_4.35">vm config tags</a>
+<a href="#header_4.36">vm config threads</a>
+<a href="#header_4.37">vm config uuid</a>
+<a href="#header_4.38">vm config vcpus</a>
+<a href="#header_4.39">vm config vga</a>
+<a href="#header_4.40">vm config virtio-ports</a>
+<a href="#header_4.41">vm config volume</a>
+<a href="#header_4.42">vm hotplug</a>
+<a href="#header_4.43">vm info</a>
+<a href="#header_4.44">vm launch</a>
+<a href="#header_4.45">vm migrate</a>
+<a href="#header_4.46">vm net</a>
+<a href="#header_4.47">vm qmp</a>
+<a href="#header_4.48">vm screenshot</a>
+<a href="#header_4.49">vm snapshot</a>
+<a href="#header_4.50">vm tag</a>
+<a href="#header_4.51">vm top</a>
+<a class="bold" href="#header_5.1">Host and Other Commands</a>
+<a href="#header_5.2">host</a>
+<a href="#header_5.3">background</a>
+<a href="#header_5.4">bridge</a>
+<a href="#header_5.5">capture</a>
+<a href="#header_5.6">cc</a>
+<a href="#header_5.7">cc mount</a>
+<a href="#header_5.8">check</a>
+<a href="#header_5.9">clear all</a>
+<a href="#header_5.10">clear capture</a>
+<a href="#header_5.11">clear cc</a>
+<a href="#header_5.12">clear cc mount</a>
+<a href="#header_5.13">clear deploy flags</a>
+<a href="#header_5.14">clear history</a>
+<a href="#header_5.15">clear log</a>
+<a href="#header_5.16">clear namespace</a>
+<a href="#header_5.17">clear optimize</a>
+<a href="#header_5.18">clear pipe</a>
+<a href="#header_5.19">clear plumb</a>
+<a href="#header_5.20">clear qos</a>
+<a href="#header_5.21">clear router</a>
+<a href="#header_5.22">clear tap</a>
+<a href="#header_5.23">clear vlans</a>
+<a href="#header_5.24">clear vnc</a>
+<a href="#header_5.25">debug</a>
+<a href="#header_5.26">deploy</a>
+<a href="#header_5.27">disk</a>
+<a href="#header_5.28">dnsmasq</a>
+<a href="#header_5.29">dnsmasq configure</a>
+<a href="#header_5.30">echo</a>
+<a href="#header_5.31">file</a>
+<a href="#header_5.32">help</a>
+<a href="#header_5.33">history</a>
+<a href="#header_5.34">log file</a>
+<a href="#header_5.35">log filter</a>
+<a href="#header_5.36">log level</a>
+<a href="#header_5.37">log mesh</a>
+<a href="#header_5.38">log ring</a>
+<a href="#header_5.39">log stderr</a>
+<a href="#header_5.40">log syslog</a>
+<a href="#header_5.41">namespace</a>
+<a href="#header_5.42">ns</a>
+<a href="#header_5.43">nuke</a>
+<a href="#header_5.44">optimize</a>
+<a href="#header_5.45">pipe</a>
+<a href="#header_5.46">plumb</a>
+<a href="#header_5.47">qos</a>
+<a href="#header_5.48">quit</a>
+<a href="#header_5.49">read</a>
+<a href="#header_5.50">router</a>
+<a href="#header_5.51">shell</a>
+<a href="#header_5.52">status updates</a>
+<a href="#header_5.53">tap</a>
+<a href="#header_5.54">version</a>
+<a href="#header_5.55">viz</a>
+<a href="#header_5.56">vlans</a>
+<a href="#header_5.57">vnc</a>
+<a href="#header_5.58">write</a>
+</div>
 
     <!-- MAIN MENU -->
     <main>
@@ -1116,14 +1244,13 @@ minimega API<br/></p>
 <p><code> clear vlans [prefix]<br/>
 </code><br/></p>
 <p>Clear one or more aliases, freeing the VLANs for reuse. You should only clear<br/>allocated VLANs once you have killed all the VMs connected to them.<br/></p>
-<p>By default, "clear vlans" only clears aliases for the current namespace. If<br/>given "all" as the prefix, all state about managed VLANs is cleared across<br/><h3 id="header_5.24">all namespaces, including blacklisted VLANS. You should only use this if you</h3>
-want a completely clean slate.<br/>
-<p><h3 id="header_5.25">clear vnc</h3>
+<p>By default, "clear vlans" only clears aliases for the current namespace. If<br/>given "all" as the prefix, all state about managed VLANs is cleared across<br/>*all* namespaces, including blacklisted VLANS. You should only use this if you<br/>want a completely clean slate.<br/>
+<p><h3 id="header_5.24">clear vnc</h3>
 </p>
 <p><code> clear vnc<br/>
 </code><br/></p>
 <p>Resets the state for VNC recordings. See "help vnc" for more information.<br/>
-<p><h3 id="header_5.26">debug</h3>
+<p><h3 id="header_5.25">debug</h3>
 </p>
 <p><code> debug<br/>
  debug &lt;memory,&gt; &lt;file&gt;<br/>
@@ -1137,7 +1264,7 @@ want a completely clean slate.<br/>
 <li> cpu: starts CPU profiling (must be stopped before read)</li>
 <li> goroutine: stack traces of all current goroutines</li>
 </ul><br/>
-<p><h3 id="header_5.27">deploy</h3>
+<p><h3 id="header_5.26">deploy</h3>
 </p>
 <p><code> deploy &lt;launch,&gt; &lt;hosts&gt;<br/>
  deploy &lt;launch,&gt; &lt;hosts&gt; &lt;user&gt; [sudo,]<br/>
@@ -1157,7 +1284,7 @@ want a completely clean slate.<br/>
 	deploy stderr /var/log/minimega.err<br/>
 </code><br/></p>
 <p>By default, stdout and stderr are written to /dev/null.<br/>
-<p><h3 id="header_5.28">disk</h3>
+<p><h3 id="header_5.27">disk</h3>
 </p>
 <p><code> disk &lt;create,&gt; &lt;qcow2,raw&gt; &lt;image name&gt; &lt;size&gt;<br/>
  disk &lt;snapshot,&gt; &lt;image&gt; [dst image]<br/>
@@ -1187,7 +1314,7 @@ want a completely clean slate.<br/>
 <p><code>	disk inject foo.qcow2 options "-t fat -o offset=100" files foo:bar<br/>
 </code><br/></p>
 <p>Disk image paths are always relative to the 'files' directory. Users may also<br/>use absolute paths if desired. The backing images for snapshots should always<br/>be in the files directory.<br/>
-<p><h3 id="header_5.29">dnsmasq</h3>
+<p><h3 id="header_5.28">dnsmasq</h3>
 </p>
 <p><code> dnsmasq<br/>
  dnsmasq start &lt;listen address&gt; &lt;low dhcp range&gt; &lt;high dhcp range&gt; [config]<br/>
@@ -1210,7 +1337,7 @@ want a completely clean slate.<br/>
 <p><code>	dnsmasq start 10.0.0.1 10.0.0.2 10.0.254.254 /tmp/dnsmasq-extra.conf<br/>
 </code><br/></p>
 <p>NOTE: If specifying an additional config file, you must provide the full path<br/>to the file.<br/>
-<p><h3 id="header_5.30">dnsmasq configure</h3>
+<p><h3 id="header_5.29">dnsmasq configure</h3>
 </p>
 <p><code> dnsmasq configure &lt;ID&gt; &lt;ip,&gt;<br/>
  dnsmasq configure &lt;ID&gt; &lt;ip,&gt; &lt;mac address&gt; &lt;ip&gt;<br/>
@@ -1246,11 +1373,11 @@ want a completely clean slate.<br/>
 <p>To add a DHCP option:<br/></p>
 <p><code>	dnsmasq configure 0 options option:dns-server,172.17.0.254<br/>
 </code><br/>
-<p><h3 id="header_5.31">echo</h3>
+<p><h3 id="header_5.30">echo</h3>
 </p>
 <p><code> echo [args]...<br/>
 </code><br/>
-<p><h3 id="header_5.32">file</h3>
+<p><h3 id="header_5.31">file</h3>
 </p>
 <p><code> file &lt;list,&gt;<br/>
  file &lt;list,&gt; &lt;path&gt; [recursive,]<br/>
@@ -1278,49 +1405,49 @@ want a completely clean slate.<br/>
 	file delete *.qcow2<br/>
 </code><br/></p>
 <p>The stream command allows users to stream files through the Response. Each part<br/>of the file is returned as a separate response which can then be combined to<br/>form the original file. This command blocks until the stream is complete.<br/>
-<p><h3 id="header_5.33">help</h3>
+<p><h3 id="header_5.32">help</h3>
 </p>
 <p><code> help [command]...<br/>
 </code><br/></p>
 <p>Show help on a command. If called with no arguments, show a summary of all<br/>commands.<br/>
-<p><h3 id="header_5.34">history</h3>
+<p><h3 id="header_5.33">history</h3>
 </p>
 <p><code> history<br/>
 </code><br/></p>
 <p>history displays a list of all the commands that have been invoked since<br/>minimega started on this host, or since the last time the history was cleared.<br/>History includes only valid commands and comments. Invalid lines and blank<br/>lines are not recorded. There are some commands that interact differently with<br/>history, namely read. Instead of recording the "read" command in the history,<br/>minimega records all the valid commands executed from the read file in the<br/>history. This allows the full execution history to be listed using history.<br/>
-<p><h3 id="header_5.35">log file</h3>
+<p><h3 id="header_5.34">log file</h3>
 </p>
 <p><code> log file [file]<br/>
 </code><br/></p>
 <p>Log to a file. To disable file logging, call "clear log file".<br/>
-<p><h3 id="header_5.36">log filter</h3>
+<p><h3 id="header_5.35">log filter</h3>
 </p>
 <p><code> log filter [filter]<br/>
 </code><br/></p>
 <p>Control what data gets logged based on matching text. For example, to filter<br/>out all logging messages containing the word "foo":<br/></p>
 <p><code>	log filter foo<br/>
 </code><br/>
-<p><h3 id="header_5.37">log level</h3>
+<p><h3 id="header_5.36">log level</h3>
 </p>
 <p><code> log level [debug,info,warn,error,fatal]<br/>
 </code><br/></p>
 <p>Set the log level to one of [debug,info,warn,error,fatal]. Log levels inherit<br/>lower levels, so setting the level to error will also log fatal, and setting<br/>the mode to debug will log everything.<br/>
-<p><h3 id="header_5.38">log mesh</h3>
+<p><h3 id="header_5.37">log mesh</h3>
 </p>
 <p><code> log mesh [node]<br/>
 </code><br/></p>
 <p>Log to a mesh node. To disable mesh logging, call "clear log mesh".<br/>
-<p><h3 id="header_5.39">log ring</h3>
+<p><h3 id="header_5.38">log ring</h3>
 </p>
 <p><code> log ring [size]<br/>
 </code><br/></p>
 <p>The log ring contains recent log messages, if it is enabled. By default<br/>the ring is not enabled. When enabling it, the user can specify a size. The<br/>larger the size, the more memory the logs will consume. The log ring can be<br/>cleared by re-enabling it with the same (or different) size.<br/></p>
 <p>To disable the log ring, call "clear log ring".<br/>
-<p><h3 id="header_5.40">log stderr</h3>
+<p><h3 id="header_5.39">log stderr</h3>
 </p>
 <p><code> log stderr [true,false]<br/>
 </code><br/>
-<p><h3 id="header_5.41">log syslog</h3>
+<p><h3 id="header_5.40">log syslog</h3>
 </p>
 <p><code> log syslog remote &lt;tcp,udp&gt; &lt;address&gt;<br/>
  log syslog &lt;local,&gt;<br/>
@@ -1328,7 +1455,7 @@ want a completely clean slate.<br/>
 <p>Log to a syslog daemon on the provided network and address. For example, to log<br/>over UDP to a syslog server foo on port 514:<br/></p>
 <p><code>	log syslog udp foo:514<br/>
 </code><br/>
-<p><h3 id="header_5.42">namespace</h3>
+<p><h3 id="header_5.41">namespace</h3>
 </p>
 <p><code> namespace [name]<br/>
  namespace &lt;name&gt; (command)<br/>
@@ -1339,7 +1466,7 @@ want a completely clean slate.<br/>
 <li> active : active or not</li>
 </ul><br/></p>
 <p>When a namespace is specified, it changes the active namespace or runs a single<br/>command in the different namespace.<br/>
-<p><h3 id="header_5.43">ns</h3>
+<p><h3 id="header_5.42">ns</h3>
 </p>
 <p><code> ns &lt;hosts,&gt;<br/>
  ns &lt;add-hosts,&gt; &lt;hostname or range or all&gt;<br/>
@@ -1382,13 +1509,13 @@ want a completely clean slate.<br/>
 <li> snapshot  : take a snapshot of namespace or print snapshot progress</li>
 <li> run       : run a command on all nodes in the namespace</li>
 </ul><br/>
-<p><h3 id="header_5.44">nuke</h3>
+<p><h3 id="header_5.43">nuke</h3>
 </p>
 <p><code> nuke<br/>
 </code><br/></p>
 <p>After a crash, the VM state on the machine can be difficult to recover from.<br/>nuke attempts to kill all instances of QEMU, remove all taps and bridges, and<br/>removes the temporary minimega state on the harddisk.<br/></p>
 <p>Should be run with caution.<br/>
-<p><h3 id="header_5.45">optimize</h3>
+<p><h3 id="header_5.44">optimize</h3>
 </p>
 <p><code> optimize<br/>
  optimize &lt;affinity,&gt; &lt;filter,&gt; &lt;filter&gt;<br/>
@@ -1422,7 +1549,7 @@ want a completely clean slate.<br/>
 </code><br/></p>
 <p>To disable all optimizations, use "clear optimize".<br/></p>
 <p>Note: affinity and hugepages can be selectively enabled in particular<br/>namespaces. KSM affects VMs across all namespaces.<br/>
-<p><h3 id="header_5.46">pipe</h3>
+<p><h3 id="header_5.45">pipe</h3>
 </p>
 <p><code> pipe &lt;pipe&gt; &lt;data&gt;<br/>
  pipe &lt;pipe&gt; &lt;via,&gt; &lt;command&gt;...<br/>
@@ -1439,7 +1566,7 @@ want a completely clean slate.<br/>
 	pipe foo 1.5<br/>
 </code><br/></p>
 <p>Pipes in other namespaces can be referenced with the syntax &lt;namespace&gt;//&lt;pipe&gt;.<br/>
-<p><h3 id="header_5.47">plumb</h3>
+<p><h3 id="header_5.46">plumb</h3>
 </p>
 <p><code> plumb &lt;src&gt; &lt;dst&gt;...<br/>
  plumb<br/>
@@ -1452,7 +1579,7 @@ want a completely clean slate.<br/>
 <p><code>	plumb a b<br/>
 	plumb a c<br/>
 </code><br/>
-<p><h3 id="header_5.48">qos</h3>
+<p><h3 id="header_5.47">qos</h3>
 </p>
 <p><code> qos &lt;add,&gt; &lt;vm target&gt; &lt;interface&gt; &lt;loss,&gt; &lt;percent&gt;<br/>
  qos &lt;add,&gt; &lt;vm target&gt; &lt;interface&gt; &lt;delay,&gt; &lt;duration&gt;<br/>
@@ -1488,20 +1615,20 @@ want a completely clean slate.<br/>
 <p>Example:<br/></p>
 <p><code>	clear qos foo all<br/>
 </code><br/>
-<p><h3 id="header_5.49">quit</h3>
+<p><h3 id="header_5.48">quit</h3>
 </p>
 <p><code> quit [delay]<br/>
 </code><br/></p>
 <p>Quit minimega. An optional integer argument X allows deferring the quit call<br/>for X seconds. This is useful for telling a mesh of minimega nodes to quit.<br/></p>
 <p>quit will not return a response to the cli, control socket, or meshage, it will<br/>simply exit. meshage connected nodes catch this and will remove the quit node<br/>from the mesh. External tools interfacing minimega must check for EOF on stdout<br/>or the control socket as an indication that minimega has quit.<br/>
-<p><h3 id="header_5.50">read</h3>
+<p><h3 id="header_5.49">read</h3>
 </p>
 <p><code> read &lt;file&gt; [check,]<br/>
 </code><br/></p>
 <p>Read a command file and execute it. This has the same behavior as if you typed<br/>the file in manually. read stops if it reads an invalid command. read does not<br/>stop if a command returns an error. Nested reads are not permitted.<br/></p>
 <p>To prevent issues with another script changing the namespace and commands being<br/>run in a different namespace than originally intended, read records the active<br/>namespace when it starts and prepends that namespace to all commands that it<br/>reads from the file. If it reads a command that would change the active<br/>namespace, read updates its state so that the new namespace is prepended<br/>instead.<br/></p>
 <p>If the optional argument check is specified then read doesn't execute any of<br/>the commands in the file. Instead, it checks that all the commands are<br/>syntactically valid. This can identify mistyped commands in scripts before you<br/>read them. It cannot check for semantic errors (e.g. killing a non-existent<br/>VM). The check stops at the first invalid command.<br/>
-<p><h3 id="header_5.51">router</h3>
+<p><h3 id="header_5.50">router</h3>
 </p>
 <p><code> router &lt;vm&gt;<br/>
  router &lt;vm&gt; &lt;commit,&gt;<br/>
@@ -1603,20 +1730,20 @@ want a completely clean slate.<br/>
 	router foo fw chain allow-http action accept 192.168.0.5:80 tcp<br/>
 	router foo fw chain allow-http apply out 0<br/>
 </code><br/>
-<p><h3 id="header_5.52">shell</h3>
+<p><h3 id="header_5.51">shell</h3>
 </p>
 <p><code> shell &lt;command&gt;...<br/>
 </code><br/></p>
 <p>Execute a command under the credentials of the running user.<br/></p>
 <p>Commands run until they complete or error, so take care not to execute a command<br/>that does not return.<br/>
-<p><h3 id="header_5.53">status updates</h3>
+<p><h3 id="header_5.52">status updates</h3>
 </p>
 <p><code> status updates [frequency]<br/>
 </code><br/></p>
 <p>View or set how often status updates should be published by long running<br/>commands.<br/></p>
 <p>Long running commands, like launching a VM that requires the VM's disk image to<br/>be transferred, can periodically publish status updates back to the original<br/>caller to show progress.<br/></p>
 <p>By default, the status update frequency is 3s. Status updates can be disabled by<br/>setting this value to 0. Otherwise, when setting update frequency, valid Go time<br/>units must be used ("5s", "1m", etc.).<br/>
-<p><h3 id="header_5.54">tap</h3>
+<p><h3 id="header_5.53">tap</h3>
 </p>
 <p><code> tap<br/>
  tap &lt;create,&gt; &lt;vlan&gt;<br/>
@@ -1657,16 +1784,16 @@ want a completely clean slate.<br/>
 <p><code>	tap delete all<br/>
 </code><br/></p>
 <p>Note: taps created while a namespace is active belong to that namespace and<br/>will only be listed when that namespace is active (or no namespace is active).<br/>Similarly, delete only applies to the taps in the active namespace. Unlike the<br/>"vlans" API, taps with the same name cannot exist in different namespaces.<br/>Create a mirror from one VM interface to another VM interface. The VMs must be<br/>running on the same physical node.<br/>
-<p><h3 id="header_5.55">version</h3>
+<p><h3 id="header_5.54">version</h3>
 </p>
 <p><code> version<br/>
 </code><br/>
-<p><h3 id="header_5.56">viz</h3>
+<p><h3 id="header_5.55">viz</h3>
 </p>
 <p><code> viz &lt;filename&gt;<br/>
 </code><br/></p>
 <p>Output the current experiment topology as a graphviz readable 'dot' file.<br/>
-<p><h3 id="header_5.57">vlans</h3>
+<p><h3 id="header_5.56">vlans</h3>
 </p>
 <p><code> vlans<br/>
  vlans &lt;range,&gt;<br/>
@@ -1680,7 +1807,7 @@ want a completely clean slate.<br/>
 <li>blacklist 	 view or create blacklisted VLAN</li>
 </ul><br/></p>
 <p>Note: this command is namespace aware so, for example, adding a range applies<br/>to all *new* VLAN aliases in the current namespace.<br/>
-<p><h3 id="header_5.58">vnc</h3>
+<p><h3 id="header_5.57">vnc</h3>
 </p>
 <p><code> vnc &lt;record,&gt; &lt;kb,fb&gt; &lt;vm name&gt; &lt;filename&gt;<br/>
  vnc &lt;stop,&gt; &lt;kb,fb&gt; &lt;vm name&gt;<br/>
@@ -1706,7 +1833,7 @@ want a completely clean slate.<br/>
 </code><br/></p>
 <p>Comments in the playback file are logged at the info level. An example is given<br/>below.<br/></p>
 <p>#: This is an example of a vnc playback comment<br/>List all running vnc playback/recording instances. See "help vnc" for more information.<br/>
-<p><h3 id="header_5.59">write</h3>
+<p><h3 id="header_5.58">write</h3>
 </p>
 <p><code> write &lt;file&gt;<br/>
 </code><br/></p>
