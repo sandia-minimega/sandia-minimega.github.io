@@ -31,7 +31,7 @@ jobs:
             cd ../docs
             go run minihtml.go --api_file ../minimega/doc/content/articles/api.article --html_file docs/latest.html
 
-            cd minimega
+            cd ../minimega
             git fetch --tags
             latestTag=$(git describe --tags "$(git rev-list --tags --max-count=1)")
             ./scripts/build.bash
