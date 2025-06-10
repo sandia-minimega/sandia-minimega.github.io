@@ -12,24 +12,31 @@ import (
 )
 
 type Api struct {
+	Version	 string
 	Template map[string][]string
 }
 
 func (a *Api) ParameterToString(s string) string {
 	var b strings.Builder
 	for _, v := range a.Template[s] {
+		if (s == "body" && strings.Contains(v, "minimega API")) {
+			v = strings.Replace(v, "minimega API", fmt.Sprintf("minimega API - %v", a.Version), 1)
+		}
 		fmt.Fprintf(&b, "%v", v)
 	}
 	return b.String()
 }
 
 func main() {
+	// TODO: this should just directly call minimega -cli 
 	inFile := flag.String("api_file", "minimega/doc/content/articles/api.article", "path to the api.article file")
+	version := flag.String("version", "latest", "version to include in docs")
 	outFile := flag.String("html_file", "index.html", "The output html file")
 	flag.Parse()
 
 	fmt.Printf("Converting article (%s) to template\n", *inFile)
 	a, _ := convertToTemplate(*inFile)
+	a.Version = *version
 	fmt.Printf("Writing html: %s\n", *outFile)
 	err := a.writeHTML(*outFile)
 	if err != nil {
@@ -267,7 +274,7 @@ var apiTempl = `
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Minimega API</title>
+    <title>Minimega API - {{.Version}}</title>
 	<link rel="stylesheet" href="css/api.css">
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	{{ .ParameterToString "head" }}
