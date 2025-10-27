@@ -1,36 +1,35 @@
-code {
-    margin: 20px;
-	padding: 10px;
+pre {
+  margin: 20px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-  }
+}
 
-  .floating-menu {
-    font-family: sans-serif;
-    background: #e0ebf5;
-    padding: 5px;;
-    width: 200px;
-    z-index: 100;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-  }
+.floating-menu {
+  font-family: sans-serif;
+  background: #e0ebf5;
+  padding: 5px;;
+  width: 200px;
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 
-  .floating-menu a, 
-  .floating-menu h3 {
-    font-size: 0.9em;
-    display: block;
-    margin: 0 0.5em;
-    color: black;
-  }
+.floating-menu a, 
+.floating-menu h3 {
+  font-size: 0.9em;
+  display: block;
+  margin: 0 0.5em;
+  color: black;
+}
 
-  body {
-    max-width: 500px;
-    margin: auto;
-  }
+body {
+  max-width: 500px;
+  margin: auto;
+}
 
-  /* The sidebar menu */
+/* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 200px; /* Set the width of the sidebar */
@@ -43,32 +42,37 @@ code {
     padding-top: 5px;
   }
   
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 0px 0px 0px 10px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #7b6b6ba0;
-  }
-  
-  /* Style page content */
-  .main {
-    margin-left: 200px; /* Same as the width of the sidebar */
-    padding: 0px 0px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+/* The navigation menu links */
+.sidenav a {
+  padding: 0px 0px 0px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
 
-  .bold {
-    font-weight: bold;
-  }
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #7b6b6ba0;
+}
+
+.sidenav h3 {
+  text-align: center;
+
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.bold {
+  font-weight: bold;
+}

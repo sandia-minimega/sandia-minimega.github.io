@@ -1,0 +1,49 @@
+name: Build and Push API docs
+on: 
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 9 * * 1
+
+jobs:
+  build:
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout minimega
+          uses: actions/checkout@v4
+          with:
+            repository: sandia-minimega/minimega
+            path: minimega
+        - name: Checkout docs
+          uses: actions/checkout@v4
+          with:
+            path: docs
+        - name: Build
+          run: |
+            sudo apt-get update
+            sudo apt-get install -y build-essential dnsmasq iproute2 isc-dhcp-client libpcap-dev ntfs-3g openssh-client openvswitch-switch qemu-kvm qemu-utils
+            
+            cd minimega
+            ./scripts/build.bash
+            ./scripts/doc.bash
+            cd ../docs
+            go run minihtml.go --api_file ../minimega/doc/content/articles/api.article --html_file docs/latest.html
+
+            cd ../minimega
+            git fetch --tags
+            latestTag=$(git describe --tags "$(git rev-list --tags --max-count=1)")
+            ./scripts/build.bash
+            ./scripts/doc.bash
+            cd ../docs
+            go run minihtml.go --api_file ../minimega/doc/content/articles/api.article --html_file docs/index.html --version "$latestTag"
+
+
+            git config user.name gh-actions
+            git config user.email actions@github.com
+            git add docs/index.html
+            git add docs/latest.html
+            git commit -m "auto-generated api update"
+            git push
+
