@@ -4,7 +4,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Minimega API - 3.0.1</title>
+    <title>Minimega API - 3.1.0</title>
 	<link rel="stylesheet" href="css/api.css">
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	
@@ -50,53 +50,62 @@
 <a href="#header_4.6">vm</a>
 <a href="#header_4.7">vm cdrom</a>
 <a href="#header_4.8">vm config</a>
-<a href="#header_4.9">vm config append</a>
-<a href="#header_4.10">vm config backchannel</a>
-<a href="#header_4.11">vm config bidirectional-copy-paste</a>
-<a href="#header_4.12">vm config bonds</a>
-<a href="#header_4.13">vm config cdrom</a>
-<a href="#header_4.14">vm config colocate</a>
-<a href="#header_4.15">vm config cores</a>
-<a href="#header_4.16">vm config coschedule</a>
-<a href="#header_4.17">vm config cpu</a>
-<a href="#header_4.18">vm config disks</a>
-<a href="#header_4.19">vm config fifos</a>
-<a href="#header_4.20">vm config filesystem</a>
-<a href="#header_4.21">vm config hostname</a>
-<a href="#header_4.22">vm config init</a>
-<a href="#header_4.23">vm config initrd</a>
-<a href="#header_4.24">vm config kernel</a>
-<a href="#header_4.25">vm config machine</a>
-<a href="#header_4.26">vm config memory</a>
-<a href="#header_4.27">vm config networks</a>
-<a href="#header_4.28">vm config preinit</a>
-<a href="#header_4.29">vm config qemu</a>
-<a href="#header_4.30">vm config qemu-append</a>
-<a href="#header_4.31">vm config qemu-override</a>
-<a href="#header_4.32">vm config schedule</a>
-<a href="#header_4.33">vm config serial-ports</a>
-<a href="#header_4.34">vm config snapshot</a>
-<a href="#header_4.35">vm config sockets</a>
-<a href="#header_4.36">vm config tags</a>
-<a href="#header_4.37">vm config threads</a>
-<a href="#header_4.38">vm config tpm-socket</a>
-<a href="#header_4.39">vm config usb-use-xhci</a>
-<a href="#header_4.40">vm config uuid</a>
-<a href="#header_4.41">vm config vcpus</a>
-<a href="#header_4.42">vm config vga</a>
-<a href="#header_4.43">vm config virtio-ports</a>
-<a href="#header_4.44">vm config volume</a>
-<a href="#header_4.45">vm hotplug</a>
-<a href="#header_4.46">vm info</a>
-<a href="#header_4.47">vm launch</a>
-<a href="#header_4.48">vm migrate</a>
-<a href="#header_4.49">vm net</a>
-<a href="#header_4.50">vm qmp</a>
-<a href="#header_4.51">vm save</a>
-<a href="#header_4.52">vm screenshot</a>
-<a href="#header_4.53">vm snapshot</a>
-<a href="#header_4.54">vm tag</a>
-<a href="#header_4.55">vm top</a>
+<a href="#header_4.9">vm config android-adb</a>
+<a href="#header_4.10">vm config android-avd</a>
+<a href="#header_4.11">vm config android-avd-dir</a>
+<a href="#header_4.12">vm config android-console-base-port</a>
+<a href="#header_4.13">vm config android-emulator</a>
+<a href="#header_4.14">vm config android-extra-args</a>
+<a href="#header_4.15">vm config android-no-window</a>
+<a href="#header_4.16">vm config android-sdk</a>
+<a href="#header_4.17">vm config android-writable-system</a>
+<a href="#header_4.18">vm config append</a>
+<a href="#header_4.19">vm config backchannel</a>
+<a href="#header_4.20">vm config bidirectional-copy-paste</a>
+<a href="#header_4.21">vm config bonds</a>
+<a href="#header_4.22">vm config cdrom</a>
+<a href="#header_4.23">vm config colocate</a>
+<a href="#header_4.24">vm config cores</a>
+<a href="#header_4.25">vm config coschedule</a>
+<a href="#header_4.26">vm config cpu</a>
+<a href="#header_4.27">vm config disks</a>
+<a href="#header_4.28">vm config fifos</a>
+<a href="#header_4.29">vm config filesystem</a>
+<a href="#header_4.30">vm config hostname</a>
+<a href="#header_4.31">vm config init</a>
+<a href="#header_4.32">vm config initrd</a>
+<a href="#header_4.33">vm config kernel</a>
+<a href="#header_4.34">vm config machine</a>
+<a href="#header_4.35">vm config memory</a>
+<a href="#header_4.36">vm config networks</a>
+<a href="#header_4.37">vm config preinit</a>
+<a href="#header_4.38">vm config qemu</a>
+<a href="#header_4.39">vm config qemu-append</a>
+<a href="#header_4.40">vm config qemu-override</a>
+<a href="#header_4.41">vm config schedule</a>
+<a href="#header_4.42">vm config serial-ports</a>
+<a href="#header_4.43">vm config snapshot</a>
+<a href="#header_4.44">vm config sockets</a>
+<a href="#header_4.45">vm config tags</a>
+<a href="#header_4.46">vm config threads</a>
+<a href="#header_4.47">vm config tpm-socket</a>
+<a href="#header_4.48">vm config usb-use-xhci</a>
+<a href="#header_4.49">vm config uuid</a>
+<a href="#header_4.50">vm config vcpus</a>
+<a href="#header_4.51">vm config vga</a>
+<a href="#header_4.52">vm config virtio-ports</a>
+<a href="#header_4.53">vm config volume</a>
+<a href="#header_4.54">vm hotplug</a>
+<a href="#header_4.55">vm info</a>
+<a href="#header_4.56">vm launch</a>
+<a href="#header_4.57">vm migrate</a>
+<a href="#header_4.58">vm net</a>
+<a href="#header_4.59">vm qmp</a>
+<a href="#header_4.60">vm save</a>
+<a href="#header_4.61">vm screenshot</a>
+<a href="#header_4.62">vm snapshot</a>
+<a href="#header_4.63">vm tag</a>
+<a href="#header_4.64">vm top</a>
 <a class="bold" href="#header_5.1">Host and Other Commands</a>
 <a href="#header_5.2">host</a>
 <a href="#header_5.3">args</a>
@@ -170,8 +179,8 @@
     <!-- MAIN MENU -->
     <main>
         <p>
-minimega API - 3.0.1<br/></p>
-<p>Auto-generated by apigen<br/>Last updated 10 August 2026<br/></p>
+minimega API - 3.1.0<br/></p>
+<p>Auto-generated by apigen<br/>Last updated 17 August 2026<br/></p>
 <p><h2 id="header_1.1">Introduction</h2>
 </p>
 <p>This document contains an automatically generated form of the minimega command<br/>API help text. The same help text (minus some examples included here) is<br/>available in minimega by using the `help` command. You can get specific help on<br/>a minimega command by using `help`&lt;command&gt;`.<br/></p>
@@ -352,6 +361,9 @@ node[4-8]: Error: &lt;error&gt;
 <p><h3 id="header_4.2">clear vm config</h3>
 </p>
 <p><pre>clear vm config
+clear vm config &lt;android-adb,&gt;
+clear vm config &lt;android-avd-dir,&gt;
+clear vm config &lt;android-avd,&gt;
 clear vm config &lt;append,&gt;
 clear vm config &lt;backchannel,&gt;
 clear vm config &lt;bidirectional-copy-paste,&gt;
@@ -359,9 +371,12 @@ clear vm config &lt;bonds,&gt;
 clear vm config &lt;cpu,&gt;
 clear vm config &lt;cdrom,&gt;
 clear vm config &lt;colocate,&gt;
+clear vm config &lt;android-console-base-port,&gt;
 clear vm config &lt;cores,&gt;
 clear vm config &lt;coschedule,&gt;
 clear vm config &lt;disks,&gt;
+clear vm config &lt;android-emulator,&gt;
+clear vm config &lt;android-extra-args,&gt;
 clear vm config &lt;fifos,&gt;
 clear vm config &lt;filesystem,&gt;
 clear vm config &lt;hostname,&gt;
@@ -373,10 +388,12 @@ clear vm config &lt;memory,&gt;
 clear vm config &lt;state,&gt;
 clear vm config &lt;migrate,&gt;
 clear vm config &lt;networks,&gt;
+clear vm config &lt;android-no-window,&gt;
 clear vm config &lt;preinit,&gt;
 clear vm config &lt;qemu-append,&gt;
 clear vm config &lt;qemu-override,&gt;
 clear vm config &lt;qemu,&gt;
+clear vm config &lt;android-sdk,&gt;
 clear vm config &lt;schedule,&gt;
 clear vm config &lt;serial-ports,&gt;
 clear vm config &lt;snapshot,&gt;
@@ -390,6 +407,7 @@ clear vm config &lt;vcpus,&gt;
 clear vm config &lt;vga,&gt;
 clear vm config &lt;virtio-ports,&gt;
 clear vm config &lt;volume,&gt;
+clear vm config &lt;android-writable-system,&gt;
 </pre><br/>
 <p><h3 id="header_4.3">clear vm config tag</h3>
 </p>
@@ -420,15 +438,13 @@ clear vm tag &lt;vm target&gt; [tag]
 </pre><br/>
 <p><h3 id="header_4.6">vm</h3>
 </p>
-<p><pre>vm &lt;flush,&gt;
-vm &lt;flush,&gt; &lt;vm target&gt;
+<p><pre>vm &lt;start,&gt; &lt;vm target&gt;
 vm &lt;stop,&gt; &lt;vm target&gt;
-vm &lt;start,&gt; &lt;vm target&gt;
+vm &lt;flush,&gt;
+vm &lt;flush,&gt; &lt;vm target&gt;
 vm &lt;kill,&gt; &lt;vm target&gt;
 </pre><br/></p>
-<p>Flush one or more virtual machines. Discard information about VMs that<br/>have either quit or encountered an error. This will remove VMs with a state of<br/>"quit" or "error" from vm info. Names of VMs that have been flushed may be<br/>reused.<br/></p>
-<p>Note running without arguments results in the same behavior as using the "all"<br/>target. See "vm start" for a full description of allowable targets.<br/>Stop one or more running virtual machines. See "vm start" for a full<br/>description of allowable targets.<br/></p>
-<p>Calling stop will put VMs in a paused state. Use "vm start" to restart them.<br/>Start one or more paused virtual machines. VMs may be selected by name, range, or<br/>wildcard. For example,<br/></p>
+<p>Start one or more paused virtual machines. VMs may be selected by name, range, or<br/>wildcard. For example,<br/></p>
 <p>To start vm foo:<br/></p>
 <p><pre>vm start foo
 </pre><br/></p>
@@ -442,7 +458,9 @@ vm &lt;kill,&gt; &lt;vm target&gt;
 <p><pre>vm start all
 </pre><br/></p>
 <p>Note that including the wildcard in a list of VMs results in the wildcard<br/>behavior (although a message will be logged).<br/></p>
-<p>Calling "vm start" on a specific list of VMs will cause them to be started if<br/>they are in the building, paused, quit, or error states. When used with the<br/>wildcard, only vms in the building or paused state will be started.<br/>Kill one or more running virtual machines. See "vm start" for a full<br/>description of allowable targets.<br/>
+<p>Calling "vm start" on a specific list of VMs will cause them to be started if<br/>they are in the building, paused, quit, or error states. When used with the<br/>wildcard, only vms in the building or paused state will be started.<br/>Stop one or more running virtual machines. See "vm start" for a full<br/>description of allowable targets.<br/></p>
+<p>Calling stop will put VMs in a paused state. Use "vm start" to restart them.<br/>Flush one or more virtual machines. Discard information about VMs that<br/>have either quit or encountered an error. This will remove VMs with a state of<br/>"quit" or "error" from vm info. Names of VMs that have been flushed may be<br/>reused.<br/></p>
+<p>Note running without arguments results in the same behavior as using the "all"<br/>target. See "vm start" for a full description of allowable targets.<br/>Kill one or more running virtual machines. See "vm start" for a full<br/>description of allowable targets.<br/>
 <p><h3 id="header_4.7">vm cdrom</h3>
 </p>
 <p><pre>vm cdrom &lt;eject,&gt; &lt;vm target&gt; [force,]
@@ -465,14 +483,16 @@ vm cdrom &lt;change,&gt; &lt;vm target&gt; &lt;path&gt; [force,]
 <p>See "vm start" for a full description of allowable targets.<br/>
 <p><h3 id="header_4.8">vm config</h3>
 </p>
-<p><pre>vm config
+<p><pre>vm config state [value]
+vm config migrate [value]
+vm config
 vm config &lt;save,&gt; &lt;name&gt;
 vm config &lt;restore,&gt; [name]
 vm config &lt;clone,&gt; &lt;vm name&gt;
-vm config state [value]
-vm config migrate [value]
 </pre><br/></p>
-<p>Display, save, or restore the current VM configuration. Note that saving and<br/>restoring configuration applies to all VM configurations including KVM-based VM<br/>configurations.<br/></p>
+<p>NOTE: the 'migrate' command is **DEPRECATED** and will be removed in a<br/>future release. Use 'vm save' instead.<br/></p>
+<p>Assign a VM state image, generated by a previously saved VM to boot<br/>with. Explicitly, this is the state of a previously running VM and NOT<br/>the disk state. By default, images are read from the files directory as<br/>specified with -filepath. This can be overridden by using an absolute<br/>path. State images should be booted with a kernel/initrd, disk, or<br/>cdrom. The state often does not make sense without the corresponding disk<br/>file and using it with an unrelated disk (or cdrom) is discouraged.<br/>Use 'vm save' to generate state images from running VMs.<br/></p>
+<p>Note: this configuration only applies to KVM-based VMs.<br/>Display, save, or restore the current VM configuration. Note that saving and<br/>restoring configuration applies to all VM configurations including KVM-based VM<br/>configurations.<br/></p>
 <p>To display the current configuration, call vm config with no arguments.<br/></p>
 <p>List the current saved configurations with 'vm config restore'.<br/></p>
 <p>To save a configuration:<br/></p>
@@ -485,10 +505,73 @@ vm config migrate [value]
 <p><pre>vm config clone &lt;vm name&gt;
 </pre><br/></p>
 <p>Clone reparses the original network "vm config net". If the cloned VM was<br/>configured with a static MAC, the VM config will not be launchable. Clone also<br/>clears the UUID.<br/></p>
-<p>Calling clear vm config will clear all VM configuration options, but will not<br/>remove saved configurations.<br/>NOTE: the 'migrate' command is **DEPRECATED** and will be removed in a<br/>future release. Use 'vm save' instead.<br/></p>
-<p>Assign a VM state image, generated by a previously saved VM to boot<br/>with. Explicitly, this is the state of a previously running VM and NOT<br/>the disk state. By default, images are read from the files directory as<br/>specified with -filepath. This can be overridden by using an absolute<br/>path. State images should be booted with a kernel/initrd, disk, or<br/>cdrom. The state often does not make sense without the corresponding disk<br/>file and using it with an unrelated disk (or cdrom) is discouraged.<br/>Use 'vm save' to generate state images from running VMs.<br/></p>
-<p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.9">vm config append</h3>
+<p>Calling clear vm config will clear all VM configuration options, but will not<br/>remove saved configurations.<br/></p>
+<p>Android-related generated config fields use the following names:<br/></p>
+<p><pre>android-sdk
+android-emulator
+android-adb
+android-avd
+android-avd-dir
+android-no-window
+android-console-base-port
+android-extra-args
+android-require-kvm
+android-writable-system
+</pre><br/></p>
+<p>These refer to host-side Android emulator runtime settings, not files served<br/>from the minimega files directory.<br/>
+<p><h3 id="header_4.9">vm config android-adb</h3>
+</p>
+<p><pre>vm config android-adb [value]
+</pre><br/></p>
+<p>Configure the host-side adb binary.<br/></p>
+<p>This value may be an absolute path or a binary name resolvable via the<br/>host PATH.<br/>
+<p><h3 id="header_4.10">vm config android-avd</h3>
+</p>
+<p><pre>vm config android-avd [value]
+</pre><br/></p>
+<p>Configure the Android Virtual Device (AVD) name to use when launching<br/>Android VMs.<br/>
+<p><h3 id="header_4.11">vm config android-avd-dir</h3>
+</p>
+<p><pre>vm config android-avd-dir [value]
+</pre><br/></p>
+<p>Configure the host-side directory containing Android AVD data.<br/></p>
+<p>This should generally contain entries such as:<br/>  &lt;avd-dir&gt;/&lt;avd-name&gt;.avd<br/>
+<p><h3 id="header_4.12">vm config android-console-base-port</h3>
+</p>
+<p><pre>vm config android-console-base-port [value]
+</pre><br/></p>
+<p>Configure the base console port for Android emulator instances.<br/></p>
+<p>Default: 0<br/>
+<p><h3 id="header_4.13">vm config android-emulator</h3>
+</p>
+<p><pre>vm config android-emulator [value]
+</pre><br/></p>
+<p>Configure the host-side Android emulator binary.<br/></p>
+<p>This value may be an absolute path or a binary name resolvable via the<br/>host PATH.<br/>
+<p><h3 id="header_4.14">vm config android-extra-args</h3>
+</p>
+<p><pre>vm config android-extra-args [value]...
+</pre><br/></p>
+<p>Additional raw arguments to append to the Android emulator command line.<br/>
+<p><h3 id="header_4.15">vm config android-no-window</h3>
+</p>
+<p><pre>vm config android-no-window [true,false]
+</pre><br/></p>
+<p>Launch Android VMs without creating a local emulator window.<br/></p>
+<p>Default: true<br/>
+<p><h3 id="header_4.16">vm config android-sdk</h3>
+</p>
+<p><pre>vm config android-sdk [value]
+</pre><br/></p>
+<p>Configure the host-side Android SDK root directory.<br/></p>
+<p>This path is interpreted on the minimega host and is not treated as a<br/>file served from the minimega files directory.<br/>
+<p><h3 id="header_4.17">vm config android-writable-system</h3>
+</p>
+<p><pre>vm config android-writable-system [true,false]
+</pre><br/></p>
+<p>Request writable system behavior for the Android emulator runtime.<br/></p>
+<p>Default: false<br/>
+<p><h3 id="header_4.18">vm config append</h3>
 </p>
 <p><pre>vm config append [value]...
 </pre><br/></p>
@@ -497,19 +580,19 @@ vm config migrate [value]
 <p><pre>vm config append ip=10.0.0.5 gateway=10.0.0.1 netmask=255.255.255.0 dns=10.10.10.10
 </pre><br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.10">vm config backchannel</h3>
+<p><h3 id="header_4.19">vm config backchannel</h3>
 </p>
 <p><pre>vm config backchannel [true,false]
 </pre><br/></p>
 <p>Enable/disable serial command and control layer for this VM.<br/></p>
 <p>Default: true<br/>
-<p><h3 id="header_4.11">vm config bidirectional-copy-paste</h3>
+<p><h3 id="header_4.20">vm config bidirectional-copy-paste</h3>
 </p>
 <p><pre>vm config bidirectional-copy-paste [true,false]
 </pre><br/></p>
 <p>Enables bidirectional copy paste instead of basic pasting into VM.<br/>Requires QEMU 6.1+ compiled with qemu-vdagent chardev and for<br/>spice-vdagent to be installed on VM.<br/></p>
 <p>Default: false<br/>
-<p><h3 id="header_4.12">vm config bonds</h3>
+<p><h3 id="header_4.21">vm config bonds</h3>
 </p>
 <p><pre>vm config bonds [bondspec]...
 </pre><br/></p>
@@ -530,30 +613,30 @@ vm config migrate [value]
 <p><pre>vm config bond 0,1,balance-tcp,active,no-lacp-fallback,uplink
 </pre><br/></p>
 <p>Calling vm config bonds with no arguments prints the current configuration.<br/>
-<p><h3 id="header_4.13">vm config cdrom</h3>
+<p><h3 id="header_4.22">vm config cdrom</h3>
 </p>
 <p><pre>vm config cdrom [value]
 </pre><br/></p>
 <p>Attach a cdrom to a VM. When using a cdrom, it will automatically be set<br/>to be the boot device.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.14">vm config colocate</h3>
+<p><h3 id="header_4.23">vm config colocate</h3>
 </p>
 <p><pre>vm config colocate [value]
 </pre><br/></p>
 <p>Colocate this VM with another VM that has already been launched or is<br/>queued for launching.<br/></p>
 <p>Note: Cannot specify Colocate and Schedule in the same<br/>
-<p><h3 id="header_4.15">vm config cores</h3>
+<p><h3 id="header_4.24">vm config cores</h3>
 </p>
 <p><pre>vm config cores [value]
 </pre><br/></p>
 <p>Set the number of CPU cores per socket. If unspecified, QEMU will<br/>calculate missing values based on vCPUs, sockets, and threads.<br/>
-<p><h3 id="header_4.16">vm config coschedule</h3>
+<p><h3 id="header_4.25">vm config coschedule</h3>
 </p>
 <p><pre>vm config coschedule [value]
 </pre><br/></p>
 <p>Set a limit on the number of VMs that should be scheduled on the same<br/>host as the VM. A limit of zero means that the VM should be scheduled by<br/>itself. A limit of -1 means that there is no limit. This is only used<br/>when launching VMs in a namespace.<br/></p>
 <p>Default: -1<br/>
-<p><h3 id="header_4.17">vm config cpu</h3>
+<p><h3 id="header_4.26">vm config cpu</h3>
 </p>
 <p><pre>vm config cpu [value]
 </pre><br/></p>
@@ -562,7 +645,7 @@ vm config migrate [value]
 <p>The accepted values for this configuration depend on the QEMU binary<br/>name specified by 'vm config qemu'.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/></p>
 <p>Default: "host"<br/>
-<p><h3 id="header_4.18">vm config disks</h3>
+<p><h3 id="header_4.27">vm config disks</h3>
 </p>
 <p><pre>vm config disks [diskspec]...
 </pre><br/></p>
@@ -586,58 +669,58 @@ vm config migrate [value]
 <p>Disk images launched in snapshot mode may safely be used for multiple VMs.<br/></p>
 <p>Calling vm config disks with no arguments prints the current configuration.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.19">vm config fifos</h3>
+<p><h3 id="header_4.28">vm config fifos</h3>
 </p>
 <p><pre>vm config fifos [value]
 </pre><br/></p>
 <p>Set the number of named pipes to include in the container for<br/>container-host communication. Named pipes will appear on the host in the<br/>instance directory for the container as fifoN, and on the container as<br/>/dev/fifos/fifoN.<br/></p>
 <p>Fifos are created using mkfifo() and have all of the same usage<br/>constraints.<br/></p>
 <p>Note: this configuration only applies to containers.<br/>
-<p><h3 id="header_4.20">vm config filesystem</h3>
+<p><h3 id="header_4.29">vm config filesystem</h3>
 </p>
 <p><pre>vm config filesystem [value]
 </pre><br/></p>
 <p>Configure the filesystem to use for launching a container. This should<br/>be a root filesystem for a linux distribution (containing /dev, /proc,<br/>/sys, etc.)<br/></p>
 <p>Note: this configuration only applies to containers and must be specified.<br/>
-<p><h3 id="header_4.21">vm config hostname</h3>
+<p><h3 id="header_4.30">vm config hostname</h3>
 </p>
 <p><pre>vm config hostname [value]
 </pre><br/></p>
 <p>Set a hostname for a container before launching the init program. If not<br/>set, the hostname will be the VM name. The hostname can also be set by<br/>the init program or other root process in the container.<br/></p>
 <p>Note: this configuration only applies to containers.<br/>
-<p><h3 id="header_4.22">vm config init</h3>
+<p><h3 id="header_4.31">vm config init</h3>
 </p>
 <p><pre>vm config init [value]...
 </pre><br/></p>
 <p>Set the init program and args to exec into upon container launch. This<br/>will be PID 1 in the container.<br/></p>
 <p>Note: this configuration only applies to containers.<br/></p>
 <p>Default: "/init"<br/>
-<p><h3 id="header_4.23">vm config initrd</h3>
+<p><h3 id="header_4.32">vm config initrd</h3>
 </p>
 <p><pre>vm config initrd [value]
 </pre><br/></p>
 <p>Attach an initrd image to a VM. Passed along with the kernel image at<br/>boot time.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.24">vm config kernel</h3>
+<p><h3 id="header_4.33">vm config kernel</h3>
 </p>
 <p><pre>vm config kernel [value]
 </pre><br/></p>
 <p>Attach a kernel image to a VM. If set, QEMU will boot from this image<br/>instead of any disk image.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.25">vm config machine</h3>
+<p><h3 id="header_4.34">vm config machine</h3>
 </p>
 <p><pre>vm config machine [value]
 </pre><br/></p>
 <p>Specify the machine type. See 'qemu -M help' for a list supported<br/>machine types.<br/></p>
 <p>The accepted values for this configuration depend on the QEMU binary<br/>name specified by 'vm config qemu'.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.26">vm config memory</h3>
+<p><h3 id="header_4.35">vm config memory</h3>
 </p>
 <p><pre>vm config memory [value]
 </pre><br/></p>
 <p>Configures the amount of physical memory to allocate (in megabytes).<br/></p>
 <p>Default: 2048<br/>
-<p><h3 id="header_4.27">vm config networks</h3>
+<p><h3 id="header_4.36">vm config networks</h3>
 </p>
 <p><pre>vm config networks [netspec]...
 </pre><br/></p>
@@ -675,7 +758,7 @@ vm config migrate [value]
 vm config net foo//DMZ
 </pre><br/></p>
 <p>Calling vm config net with no arguments prints the current configuration.<br/>
-<p><h3 id="header_4.28">vm config preinit</h3>
+<p><h3 id="header_4.37">vm config preinit</h3>
 </p>
 <p><pre>vm config preinit [value]
 </pre><br/></p>
@@ -685,14 +768,14 @@ vm config net foo//DMZ
 <p><pre>vm config preinit enable_ip_forwarding.sh
 </pre><br/></p>
 <p>Note: this configuration only applies to containers.<br/>
-<p><h3 id="header_4.29">vm config qemu</h3>
+<p><h3 id="header_4.38">vm config qemu</h3>
 </p>
 <p><pre>vm config qemu [value]
 </pre><br/></p>
 <p>Set the QEMU binary name to invoke. Relative paths are ok.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/></p>
 <p>Default: "kvm"<br/>
-<p><h3 id="header_4.30">vm config qemu-append</h3>
+<p><h3 id="header_4.39">vm config qemu-append</h3>
 </p>
 <p><pre>vm config qemu-append [value]...
 </pre><br/></p>
@@ -700,7 +783,7 @@ vm config net foo//DMZ
 <p><pre>vm config qemu-append -serial tcp:localhost:4001
 </pre><br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.31">vm config qemu-override</h3>
+<p><h3 id="header_4.40">vm config qemu-override</h3>
 </p>
 <p><pre>vm config qemu-override
 vm config qemu-override &lt;match&gt; &lt;replacement&gt;
@@ -708,13 +791,13 @@ vm config qemu-override &lt;match&gt; &lt;replacement&gt;
 <p>Override parts of the QEMU launch string by supplying a string to match, and a<br/>replacement string. Overrides are applied in the order that they are defined<br/><ul><li>and do not replace earlier overrides  if more than override share the same</li>
 </ul><br/>"match" will later overrides will be applied to the overridden launch string.<br/></p>
 <p>Note: this configuration only applies to KVM-based VMs.<br/>
-<p><h3 id="header_4.32">vm config schedule</h3>
+<p><h3 id="header_4.41">vm config schedule</h3>
 </p>
 <p><pre>vm config schedule [value]
 </pre><br/></p>
 <p>Set a host where the VM should be scheduled.<br/></p>
 <p>Note: Cannot specify Schedule and Colocate in the same config.<br/>
-<p><h3 id="header_4.33">vm config serial-ports</h3>
+<p><h3 id="header_4.42">vm config serial-ports</h3>
 </p>
 <p><pre>vm config serial-ports [value]
 </pre><br/></p>
@@ -723,58 +806,58 @@ vm config qemu-override &lt;match&gt; &lt;replacement&gt;
 <p>To display current serial ports:<br/>  vm config serial-ports<br/></p>
 <p>To create three serial ports:<br/>  vm config serial-ports 3<br/></p>
 <p>Note: Whereas modern versions of Windows support up to 256 COM ports,<br/>Linux typically only supports up to four serial devices. To use more,<br/>make sure to pass "8250.n_uarts = 4" to the guest Linux kernel at boot.<br/>Replace 4 with another number.<br/>
-<p><h3 id="header_4.34">vm config snapshot</h3>
+<p><h3 id="header_4.43">vm config snapshot</h3>
 </p>
 <p><pre>vm config snapshot [true,false]
 </pre><br/></p>
 <p>Enable or disable snapshot mode for disk images and container<br/>filesystems. When enabled, disks/filesystems will have temporary snapshots created<br/>when run and changes will not be saved. This allows a single<br/>disk/filesystem to be used for many VMs.<br/></p>
 <p>Default: true<br/>
-<p><h3 id="header_4.35">vm config sockets</h3>
+<p><h3 id="header_4.44">vm config sockets</h3>
 </p>
 <p><pre>vm config sockets [value]
 </pre><br/></p>
 <p>Set the number of CPU sockets. If unspecified, QEMU will calculate<br/>missing values based on vCPUs, cores, and threads.<br/>
-<p><h3 id="header_4.36">vm config tags</h3>
+<p><h3 id="header_4.45">vm config tags</h3>
 </p>
 <p><pre>vm config tags
 vm config tags &lt;key&gt; [value]
 </pre><br/></p>
 <p>Set tags in the same manner as "vm tag". These tags will apply to all<br/>newly launched VMs.<br/></p>
 <p>Default: empty map<br/>
-<p><h3 id="header_4.37">vm config threads</h3>
+<p><h3 id="header_4.46">vm config threads</h3>
 </p>
 <p><pre>vm config threads [value]
 </pre><br/></p>
 <p>Set the number of CPU threads per core. If unspecified, QEMU will<br/>calculate missing values based on vCPUs, sockets, and cores.<br/>
-<p><h3 id="header_4.38">vm config tpm-socket</h3>
+<p><h3 id="header_4.47">vm config tpm-socket</h3>
 </p>
 <p><pre>vm config tpm-socket [value]
 </pre><br/></p>
 <p>If specified, will configure VM to use virtual Trusted Platform Module (TPM)<br/>socket at the path provided<br/>
-<p><h3 id="header_4.39">vm config usb-use-xhci</h3>
+<p><h3 id="header_4.48">vm config usb-use-xhci</h3>
 </p>
 <p><pre>vm config usb-use-xhci [true,false]
 </pre><br/></p>
 <p>If true will use xHCI USB controller. Otherwise will use EHCI.<br/>EHCI does not support USB 3.0, but may be used for backwards compatibility.<br/></p>
 <p>Default: true<br/>
-<p><h3 id="header_4.40">vm config uuid</h3>
+<p><h3 id="header_4.49">vm config uuid</h3>
 </p>
 <p><pre>vm config uuid [value]
 </pre><br/></p>
 <p>Configures the UUID for a virtual machine. If not set, the VM will be<br/>given a random one when it is launched.<br/>
-<p><h3 id="header_4.41">vm config vcpus</h3>
+<p><h3 id="header_4.50">vm config vcpus</h3>
 </p>
 <p><pre>vm config vcpus [value]
 </pre><br/></p>
 <p>Configures the number of virtual CPUs to allocate for a VM.<br/></p>
 <p>Default: 1<br/>
-<p><h3 id="header_4.42">vm config vga</h3>
+<p><h3 id="header_4.51">vm config vga</h3>
 </p>
 <p><pre>vm config vga [value]
 </pre><br/></p>
 <p>Specify the graphics card to emulate. "cirrus" or "std" should work with<br/>most operating systems.<br/></p>
 <p>Default: "std"<br/>
-<p><h3 id="header_4.43">vm config virtio-ports</h3>
+<p><h3 id="header_4.52">vm config virtio-ports</h3>
 </p>
 <p><pre>vm config virtio-ports [value]
 </pre><br/></p>
@@ -785,7 +868,7 @@ vm config tags &lt;key&gt; [value]
 <p>To explicitly name the virtio-ports, pass a comma-separated list of names:<br/></p>
 <p>  vm config virtio-ports foo,bar<br/></p>
 <p>The ports (on the guest) will then be mapped to /dev/virtio-port/foo and<br/>/dev/virtio-port/bar.<br/>
-<p><h3 id="header_4.44">vm config volume</h3>
+<p><h3 id="header_4.53">vm config volume</h3>
 </p>
 <p><pre>vm config volume
 vm config volume &lt;key&gt; [value]
@@ -801,7 +884,7 @@ vm config volume /data
 </pre><br/></p>
 <p>Note: this configuration only applies to containers.<br/></p>
 <p>Default: empty map<br/>
-<p><h3 id="header_4.45">vm hotplug</h3>
+<p><h3 id="header_4.54">vm hotplug</h3>
 </p>
 <p><pre>vm hotplug
 vm hotplug &lt;add,&gt; &lt;vm target&gt; &lt;filename&gt; [version]
@@ -823,7 +906,7 @@ vm hotplug &lt;remove,&gt; &lt;vm target&gt; &lt;disk id or all&gt;
 </pre><br/></p>
 <p>To remove all hotplug devices, use ID "all" for the disk ID.<br/></p>
 <p>See "vm start" for a full description of allowable targets.<br/>
-<p><h3 id="header_4.46">vm info</h3>
+<p><h3 id="header_4.55">vm info</h3>
 </p>
 <p><pre>vm info [summary,]
 </pre><br/></p>
@@ -877,7 +960,7 @@ vm hotplug &lt;remove,&gt; &lt;vm target&gt; &lt;disk id or all&gt;
 </pre><br/></p>
 <p>Display information about all VMs:<br/><pre>vm info
 </pre><br/>
-<p><h3 id="header_4.47">vm launch</h3>
+<p><h3 id="header_4.56">vm launch</h3>
 </p>
 <p><pre>vm launch
 vm launch &lt;kvm,&gt; &lt;name or count&gt; [config]
@@ -898,14 +981,14 @@ vm launch &lt;container,&gt; &lt;name or count&gt; [config]
 vm launch kvm 5 endpoint
 </pre><br/></p>
 <p>If queueing is enabled (see "ns"), VMs will be queued for launching until "vm<br/>launch" is called with no additional arguments. This allows the scheduler to<br/>better allocate resources across the cluster.<br/>
-<p><h3 id="header_4.48">vm migrate</h3>
+<p><h3 id="header_4.57">vm migrate</h3>
 </p>
 <p><pre>vm migrate
 vm migrate &lt;vm name&gt; &lt;filename&gt;
 </pre><br/></p>
 <p><ul><li>**DEPRECATED**: Use 'vm save'  Migrate runtime state of a VM to disk, which can later</li>
 </ul><br/>be booted with vm config migrate.<br/>Migration files are written to the files directory as specified with -filepath.<br/>On success, a call to migrate a VM will return immediately. You can check the<br/>status of in-flight migrations by invoking vm migrate with no arguments.<br/>
-<p><h3 id="header_4.49">vm net</h3>
+<p><h3 id="header_4.58">vm net</h3>
 </p>
 <p><pre>vm net &lt;add,&gt; &lt;vm target&gt; [netspec]...
 vm net &lt;connect,&gt; &lt;vm target&gt; &lt;tap position&gt; &lt;vlan&gt; [bridge]
@@ -938,7 +1021,7 @@ vm net &lt;bond,&gt; &lt;vm target&gt; &lt;interface indexes&gt; &lt;active-back
 </pre><br/></p>
 <p>There are three bond modes supported: active-backup, balance-slb, and<br/>balance-tcp, and three LACP modes supported: active, passive, and off. To<br/>disable the bond if LACP negotiation fails instead of falling back to<br/>active-backup mode, provide the 'no-lacp-fallback' option.<br/></p>
 <p>Bonds can also be configured in "dot1q-tunnel" mode (QinQ) in OVS with the<br/>"qinq" option. If configured in "dot1q-tunnel" mode, the outer VLAN tag will be<br/>set to the VLAN the bonded interfaces originally belonged to. Note that a bond<br/>will also be configured in "dot1q-tunnel" mode if at least one of the bonded<br/>interfaces was configured in "dot1q-tunnel" mode, even without the "qinq"<br/>option.<br/>
-<p><h3 id="header_4.50">vm qmp</h3>
+<p><h3 id="header_4.59">vm qmp</h3>
 </p>
 <p><pre>vm qmp &lt;vm name&gt; &lt;qmp command&gt;
 </pre><br/></p>
@@ -946,7 +1029,7 @@ vm net &lt;bond,&gt; &lt;vm target&gt; &lt;interface indexes&gt; &lt;active-back
 <p><pre>vm qmp 0 '{ "execute": "query-status" }'
 {"return":{"running":false,"singlestep":false,"status":"prelaunch"}}
 </pre><br/>
-<p><h3 id="header_4.51">vm save</h3>
+<p><h3 id="header_4.60">vm save</h3>
 </p>
 <p><pre>vm save
 vm save &lt;vm name&gt;
@@ -955,7 +1038,7 @@ vm save &lt;vm name&gt; &lt;filename&gt;
 <p>Save runtime state and disk of a VM to files, which can later be booted with 'vm config<br/>state ...' and 'vm config disk ...', respectively. The state file will likely have a <br/>dependency with the corresponding disk snapshot image.<br/></p>
 <p>State/RAM and disk files are written to the files directory based on the name of the VM<br/>or as specified with &lt;filename&gt;.<br/>State files will have ".state" appended to filename, while drive(s) will have ".hdd" appended to the<br/>filename provided. If no filename is provided, the state and disk image will be saved in the default<br/>"files" directory within the "saved" directory.<br/>On success, a call to 'vm save' a VM will return immediately. You can check the<br/>status of in-flight saves by invoking 'vm save' with no arguments.<br/></p>
 <p>Note: This will overwrite any prior saved files.<br/>
-<p><h3 id="header_4.52">vm screenshot</h3>
+<p><h3 id="header_4.61">vm screenshot</h3>
 </p>
 <p><pre>vm screenshot &lt;vm name&gt; [maximum dimension]
 vm screenshot &lt;vm name&gt; file &lt;filename&gt; [maximum dimension]
@@ -970,14 +1053,14 @@ vm screenshot &lt;vm name&gt; file &lt;filename&gt; [maximum dimension]
 <p>You can also specify the maximum dimension:<br/></p>
 <p><pre>vm screenshot foo file /tmp/foo.png 100
 </pre><br/>
-<p><h3 id="header_4.53">vm snapshot</h3>
+<p><h3 id="header_4.62">vm snapshot</h3>
 </p>
 <p><pre>vm snapshot
 vm snapshot &lt;vm name&gt; &lt;state filename&gt; &lt;disk filename&gt;
 </pre><br/></p>
 <p><ul><li>**DEPRECATED**: Use 'vm save'  Write VM state (migrate) and disk to file, which can later be booted with 'vm config</li>
 </ul><br/>migrate ...' and 'vm config disk ...', respectively.<br/>Saved migrate and disk files are written to the files directory as specified with<br/>-filepath. On success, a call to snapshot a VM will return immediately. You can<br/>check the status of in-flight snapshots by invoking vm snapshot with no arguments.<br/>
-<p><h3 id="header_4.54">vm tag</h3>
+<p><h3 id="header_4.63">vm tag</h3>
 </p>
 <p><pre>vm tag &lt;vm target&gt; [key or all]
 vm tag &lt;vm target&gt; &lt;key&gt; &lt;value&gt;
@@ -990,7 +1073,7 @@ vm tag &lt;vm target&gt; &lt;key&gt; &lt;value&gt;
 <p>To read a tag:<br/></p>
 <p><pre>vm tag &lt;vm target&gt; &lt;key or all&gt;
 </pre><br/>
-<p><h3 id="header_4.55">vm top</h3>
+<p><h3 id="header_4.64">vm top</h3>
 </p>
 <p><pre>vm top [duration]
 </pre><br/></p>
@@ -1400,23 +1483,14 @@ deploy stderr /var/log/minimega.err
 <p>By default, stdout and stderr are written to /dev/null.<br/>
 <p><h3 id="header_5.32">disk</h3>
 </p>
-<p><pre>disk &lt;rebase,&gt; &lt;image&gt; [backing file]
-disk &lt;set-backing,&gt; &lt;image&gt; [backing file]
-disk &lt;inject,&gt; &lt;image&gt; files &lt;files like /path/to/src:/path/to/dst&gt;...
+<p><pre>disk &lt;inject,&gt; &lt;image&gt; files &lt;files like /path/to/src:/path/to/dst&gt;...
 disk &lt;inject,&gt; &lt;image&gt; &lt;delete,&gt; files &lt;files like /path/to/src,/path/to/src&gt;...
 disk &lt;inject,&gt; &lt;image&gt; &lt;options,&gt; &lt;options&gt; files &lt;files like /path/to/src:/path/to/dst&gt;
 disk &lt;inject,&gt; &lt;image&gt; &lt;options,&gt; &lt;options&gt; &lt;delete,&gt; files &lt;files like /path/to/src,/path/to/src&gt;
+disk &lt;rebase,&gt; &lt;image&gt; [backing file]
+disk &lt;set-backing,&gt; &lt;image&gt; [backing file]
 </pre><br/></p>
-<p>Rebases the image 'image' onto a new backing file 'backing'.<br/>Using 'rebase' will write any differences between the original backing file and the new backing file to 'image'.<br/></p>
-<p><pre>disk rebase myimage.qcow2 base.qcow2
-</pre><br/></p>
-<p>Alternatively, 'set-backing' can be used to change the backing file pointer without any changes to the images.<br/></p>
-<p><pre>disk set-backing myimage.qcow2 base.qcow2
-</pre><br/></p>
-<p>The 'backing' argument can be omitted, causing all backing data to be written to 'image' making it independent.<br/></p>
-<p><pre>disk rebase myimage.qcow2
-
-</pre><br/>Users may use paths relative to the 'files' directory or absolute paths for inputs; <br/>however, the backing path will always be relative to the rebased image.<br/>Injects files into a disk.<br/></p>
+<p>Injects files into a disk.<br/></p>
 <p>To inject files into an image:<br/></p>
 <p><pre>disk inject window7_miniccc.qc2 files "miniccc":"Program Files/miniccc"
 </pre><br/></p>
@@ -1433,7 +1507,16 @@ disk &lt;inject,&gt; &lt;image&gt; &lt;options,&gt; &lt;options&gt; &lt;delete,&
 <p><pre>disk inject window7_miniccc.qc2 delete files "Program Files/miniccc.exe"
 disk inject window7_miniccc.qc2 delete files "Users/Administrator/Documents/TestDir"
 disk inject window7_miniccc.qc2 delete files "foo.txt,Temp/bar.zip"
-</pre><br/>
+</pre><br/>Rebases the image 'image' onto a new backing file 'backing'.<br/>Using 'rebase' will write any differences between the original backing file and the new backing file to 'image'.<br/></p>
+<p><pre>disk rebase myimage.qcow2 base.qcow2
+</pre><br/></p>
+<p>Alternatively, 'set-backing' can be used to change the backing file pointer without any changes to the images.<br/></p>
+<p><pre>disk set-backing myimage.qcow2 base.qcow2
+</pre><br/></p>
+<p>The 'backing' argument can be omitted, causing all backing data to be written to 'image' making it independent.<br/></p>
+<p><pre>disk rebase myimage.qcow2
+
+</pre><br/>Users may use paths relative to the 'files' directory or absolute paths for inputs; <br/>however, the backing path will always be relative to the rebased image.<br/>
 <p><h3 id="header_5.33">disk commit</h3>
 </p>
 <p><pre>disk commit &lt;image&gt;
